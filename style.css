@@ -85,7 +85,10 @@ a {
 a:hover,
 a:focus {
   color: var(--on-background);
-  border-bottom: 3px solid;
+  border-left: 3px solid;
+  border-right: 3px solid;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 /* Home Section */
