@@ -119,14 +119,14 @@ img {
 /* Projects Section */
 .buttons {
   margin-top: 15px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 button {
   min-width: 100px;
   height: 40px;
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 15px;
   margin-right: 10px;
   border: 2px solid var(--primary-color);
   font-size: 15px;
@@ -173,7 +173,7 @@ button:hover:not(.outline) {
   text-align: justify;
   background: rgb(0 0 0 / 50%);
   color: var(--on-primary);
-  border-radius: 10px;
+  border-radius: 15px;
   padding: 30px;
 }
 
