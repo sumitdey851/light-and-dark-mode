@@ -48,7 +48,7 @@ section {
 }
 
 h1 {
-  font-size: 100px;
+  font-size: 70px;
   margin-bottom: 0;
   font-family: 'Poiret One', cursive;
 }
@@ -100,7 +100,7 @@ a:focus {
 
 .image-container {
   border: 1px solid var(--secondary-color);
-  border-radius: 10px;
+  border-radius: 15px;
   padding: 10px 20px;
   margin-right: 25px;
   width: auto;
@@ -109,8 +109,8 @@ a:focus {
 }
 
 img {
-  height: 300px;
-  width: 300px;
+  height: 180px;
+  width: 180px;
 }
 
 /* Projects Section */
