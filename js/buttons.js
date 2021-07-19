@@ -6,6 +6,8 @@ const btnJokeTeller = document.getElementById('joke-teller');
 const btnPip = document.getElementById('picture-in-picture');
 const btnWeather = document.getElementById('weather');
 const btnChat = document.getElementById('chat');
+const btnAnimateOnScroll = document.getElementById('animated-template');
+const btnAnimatedNavigation = document.getElementById('animated-navigation');
 
 // Button functions
 function gotoRepos() {
@@ -43,6 +45,16 @@ function gotoChatApp() {
     window.open(url, '_blank');
 }
 
+function gotoAnimateOnScroll() {
+    const url = 'https://sumitdey851.github.io/animated-template/'
+    window.open(url, '_blank');
+}
+
+function gotoAnimatedNavigation() {
+    const url = 'https://sumitdey851.github.io/animated-navigation/'
+    window.open(url, '_blank');
+}
+
 // Button behaviour
 btnGetSource.addEventListener('click', gotoRepos);
 btnQuoteGenerator.addEventListener('click', gotoQuoteGeneratorApp);
@@ -51,3 +63,5 @@ btnJokeTeller.addEventListener('click', gotoJokeTellerApp);
 btnPip.addEventListener('click', gotoPipApp);
 btnWeather.addEventListener('click', gotoWeatherApp);
 btnChat.addEventListener('click', gotoChatApp);
+btnAnimateOnScroll.addEventListener('click', gotoAnimateOnScroll);
+btnAnimatedNavigation.addEventListener('click', gotoAnimatedNavigation);

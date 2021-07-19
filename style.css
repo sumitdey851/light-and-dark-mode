@@ -117,9 +117,17 @@ img {
 }
 
 /* Projects Section */
-.buttons {
+
+.buttons-container {
   margin-top: 15px;
   margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 button {
